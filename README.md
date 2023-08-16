@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Notas mias:
+
+comando para instalar react
+npx create-react-app 01-primeros-pasos
+
+para arrancar servidor nos ubicamos en la raiz y damos el comando 
+npm start
+
+Cuando creo un componente le ingreso la palabra "rafc" y me crea la estructura necesaria de un componente react
