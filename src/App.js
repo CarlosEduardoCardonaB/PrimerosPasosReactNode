@@ -3,6 +3,7 @@ import './App.css';
 import MiComponente from './Micomponente';
 import { SegundoComponente } from './SegundoComponente';
 import { TercerComponente } from './TercerComponente';
+import { EventosComponente } from './EventosComponente';
 
 function App() {
 
@@ -25,16 +26,18 @@ function App() {
         </p>
 
         <div className='components'>
+          <EventosComponente />
+          <hr/>
           <TercerComponente 
             nombre="Eduardo" 
             apellido="Cardona"
             ficha_medica= {ficha_medica}
             />
-          <hr></hr>
+          <hr/>
           <MiComponente />
-          <hr></hr>
+          <hr/>
           <SegundoComponente />
-          <hr></hr>
+          <hr/>
         </div>
         
       </header>
